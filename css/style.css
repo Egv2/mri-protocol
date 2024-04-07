@@ -8003,6 +8003,12 @@ body {
   }
 }
 
+@media screen and (max-width: 800px) {
+  .socializer {
+    gap: 15px;
+  }
+}
+
 @keyframes fadeIn {
   from {
     opacity: 0;
