@@ -7996,3 +7996,31 @@ body {
     width: 295px;
   }
 }
+
+@media screen and (min-width: 1500px) {
+  .tokeno {
+    justify-content: center;
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 3s ease-out, transform 6s ease-out;
+}
+
+.reveal.visible {
+  opacity: 1;
+  transform: none;
+}
